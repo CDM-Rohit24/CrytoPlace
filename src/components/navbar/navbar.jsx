@@ -14,7 +14,7 @@ const Navbar = () => {
     const { setCurrency } = useContext(CoinContext)
 
     const currencyHandler = (e) => {
-
+// add symbol
         switch (e.target.value) {
 
             case "usd": {
