@@ -22,11 +22,11 @@ const Navbar = () => {
                 break;
             }
             case "eur": {
-                setCurrency({ name: "eur", symbol: "E" });
+                setCurrency({ name: "eur", symbol: "Є" });
                 break;
             }
             case "inr": {
-                setCurrency({ name: "inr", symbol: "I" });
+                setCurrency({ name: "inr", symbol: "₹" });
                 break;
             }
             default: {
